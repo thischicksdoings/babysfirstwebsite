@@ -1,0 +1,10 @@
+div.gallery {
+  margin: 5px;
+  border: 1px solid floralwhite;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid
+}

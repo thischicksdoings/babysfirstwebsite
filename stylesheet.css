@@ -1,58 +1,88 @@
-
 body {
-  background-color:#C5CBE3;
+  background-color: seashell;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
+a {
+  text-decoration:none;
+}
+
+/*headers and paragraphs*/
 .heading {
-  color:#F13C20;
-  font-family: "verdana", sans-serif;
+  color: lightcoral;
+  font-family: "quicksand";
 }
 .blurb {
-  color:#F76C6C;
-  font-family: "geneva", sans-serif;
+  color: lightcoral;
+  font-family: "quicksand";
   font-size: 18px;
 }
 .main {
   text-align: center;
 }
 .blurb {
-  color:#F76C6C;
-  font-family: "geneva", sans-serif;
+  color: lightcoral;
+  font-family: "quicksand";
 }
-li {
-  color:#F76C6C;
-  text-size: 10px;
-  font-family: "verdana", sans-serif;
-}
-a:link, a:visited {
-  color: crimson;
-  background-color: transparent;
-  text-decoration: none;
-}
-a:active {
-  color: brown;
-  background-color: transparent
-  text-decoration: none;
-}
-.navigation {
+
+/* navigation bar */
+.navbarnav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  background-color: lightcoral;
+}
+.navbar {
+  min-height: 50px; // your value here.
+}
+.navbarnav {
   overflow: hidden;
-  background-color: #F76C6C;
+  min-heigh: 50px;
 }
-.navigation {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-align: center;
+.nav-link {
+  color: floralwhite;
+  cursor: pointer;
+  font-family: "quicksand";
 }
-.navigationitems {
+.nav-item {
   float: left;
+  font-family: "quicksand";
+  color: floralwhite;
 }
-.navigationitems a {
+.nav-link {
+  color: floralwhite;
+  font-family: "quicksand";
+}
+.nav-link:hover {
+  color: floralwhite;
+  font-family: "quicksand";
+}
+.navbar-brand {
+  color: lightcoral;
+  font-family: "quicksand";
+  padding: 15px 15px;
+  height: 50px;
+}
+.navbar-brand:hover {
+  color: lightcoral;
+  font-family: "quicksand";
+  padding: none;
+  margin: none;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* image gallery */
+.galleryimage {
   display: block;
-  color: white;
-  padding: 8px;
-  background-color: #F76C6C;
-  text-decorations: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.caption {
+  font-family: "quicksand";
+  color: lightcoral;
+  text-align: center;
+  text-decoration: none;
 }

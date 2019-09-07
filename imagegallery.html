@@ -1,17 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>My Gallery</title>
 <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous">
+
+  <!--added when trying to do bootstrap gallery-->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
   <link rel="stylesheet" href="stylesheet.css">
+
 </head>
+
 <body>
 
-  <h1 class="heading main"> My Gallery </h1>
-  <a href="https://imgur.com/O6CEdLM"><img src="https://i.imgur.com/O6CEdLM.jpg?3"
-    title="source: imgur.com" /></a>
-  <a href="https://imgur.com/tGMWhXP"><img src="https://i.imgur.com/tGMWhXP.jpg?4"
-    title="source: imgur.com" /></a>
-  <a href="https://imgur.com/MtZaJOd"><img src="https://i.imgur.com/MtZaJOd.jpg?2"
-    title="source: imgur.com" /></a>
+  <!--boostrap navigation bar-->
+<nav class="navbar navbar-expand-md navbar-fixed-top">
+  <div class="container-fluid" padding="0px">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="firstwebpage.html">
+        <img src="logo.png" style="width:80%"></a>
+        </div>
+        <ul class="navbarnav">
+          <li class="nav-item">
+            <a class="nav-link" href="firstwebpage.html">home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="imagegallery.html">gallery</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="recentworks.html">recent works</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a></li>
+          </ul>
+          </div>
+          </nav>
+
+<!--header-->
+<div class="container">
+  <h1 class="heading main"> my gallery </h1>
+  <hr><br></div>
+
+  <!--images-->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+  <a href="https://imgur.com/O6CEdLM" target="_blank">
+    <img src="https://i.imgur.com/O6CEdLM.jpg?3"
+    alt="we're all weirdos" style="width:250px">
+    <div class="caption">
+      <p>we're all weirdos, <br> marker on paper, <br> 2019</p>
+    </div>
+  </a>
+</div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="thumbnail">
+  <a href="https://imgur.com/tGMWhXP" target="_blank">
+    <img src="https://i.imgur.com/tGMWhXP.jpg?4"
+    alt="natalie fox" style="width:300">
+    <div class="caption">
+      <p>baby natalie fox <br> marker on paper <br>2019</p>
+      </div>
+    </a>
+  </div>
+  </div>
+
+<div class="col-md-4">
+  <div class="thumbnail">
+  <a href="https://imgur.com/MtZaJOd" target="_blank">
+    <img src="https://i.imgur.com/MtZaJOd.jpg?2"
+    alt="welcome to our zoo" style="width:300">
+    <div class="caption">
+      <p>welcome to our zoo<br>marker on paper<br>2019</p>
+    </div>
+  </a>
+</div>
+</div>
+
+<div class="col-md-4">
+  <div class="thumbnail">
+  <a href="https://imgur.com/OcGqU8i" target="_blank">
+    <img src="https://i.imgur.com/OcGqU8i.jpg?1"
+    alt="juicy" style="width:300">
+    <div class="caption">
+      <p>juicy <br> marker on paper <br>2019</p>
+    </div>
+  </a>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="thumbnail">
+  <a href="https://imgur.com/kdo6J6Y" target="_blank">
+    <img src="https://i.imgur.com/kdo6J6Y.jpg?1"
+    alt="funky fresh dressed" style="width:300">
+    <div class="caption">
+      <p>funky fresh dressed<br>marker on paper<br>2019</p>
+    </div>
+  </a>
+</div>
+</div>
+
+<div class="col-md-4">
+  <div class="thumbnail">
+  <a href="https://imgur.com/2gWmPXv" target="_blank">
+    <img src="https://i.imgur.com/2gWmPXv.jpg?1"
+    alt="bam" style="width:300">
+    <div class="caption">
+      <p>bam<br>marker on paper<br>2019</p>
+    </div>
+  </a>
+</div>
+</div>
+
+
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
 </body>
 </html>
