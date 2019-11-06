@@ -1,8 +1,8 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: thistle;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
+  background-color: #C7B0FF;
   font-family: "quicksand";
   text-align: center;
 }
@@ -15,22 +15,16 @@ a {
   color: whitesmoke;
   font-family: "quicksand";
   text-align: center;
-  margin: 25px 50px;
+}
+.container {
+  background-color: #C7B0FF;
 }
 .blurb {
   color: whitesmoke;
   font-family: "quicksand";
   font-size: 18px;
-  margin: 25px 50px;
 }
 .main {
-  padding: 25px 50px;
-  border: dashed;
-  margin: 25px 50px;
-}
-.blurb {
-  color: whitesmoke;
-  font-family: "quicksand";
 }
 
 /* navigation bar */
@@ -39,24 +33,24 @@ a {
   background-color: transparent;
 }
 .navbar {
-  min-height: 50px; // your value here.
+  min-height: 100px; // your value here.
 }
 .navbarnav {
   overflow: hidden;
-  min-heigh: 50px;
+  min-height: 100px;
 }
 .nav-link {
-  color: darkseagreen;
+  color: #8F6AA3;
   cursor: pointer;
   font-family: "quicksand";
 }
 .nav-item {
   float: left;
   font-family: "quicksand";
-  color: darkseagreen;
+  color: #8F6AA3;
 }
 .nav-link {
-  color: darkseagreen;
+  color: #8F6AA3;
   font-family: "quicksand";
 }
 .nav-link:hover {
@@ -66,14 +60,14 @@ a {
 .navbar-brand {
   color: lightcoral;
   font-family: "quicksand";
-  padding: 15px 15px;
-  height: 50px;
+  /* padding: 15px 15px; */
+  height: 100px;
 }
 .navbar-brand:hover {
   color: lightcoral;
   font-family: "quicksand";
-  padding: none;
-  margin: none;
+  /* padding: none; */
+  /* margin: none; */
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -128,9 +122,9 @@ a {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: darkseagreen;
-  color: cornsilk;
-  border: solid;
+  background-color: #F05533;
+  border: solid 20px;
+  border-color: #FFA28C;
 }
 
 .container:hover .overlay {
@@ -139,12 +133,13 @@ a {
 
 .text {
   color: cornsilk;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "quicksand";
   position: absolute;
   top: 50%;
   left: 50%;
   border: dashed 2px;
+  border-color: #FFAD8C;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
